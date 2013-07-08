@@ -1,0 +1,39 @@
+
+class recipe:
+
+	def _init_ (spiderman, name, ingredients = "Food", instructions = "Cook", cookTime = None, serves = "Humans", complements = "Alcohol"):
+
+		spiderman.name = name
+		spiderman.ingredients = ingredients
+		spiderman.instructions = instructions
+		spiderman.cookTime = cookTime
+		spiderman.serves = serves
+		spiderman.complements = complements
+		spiderman.category = None
+
+	""" other language habits dictated I write these but python is prettier =)
+
+	#lets a user update and edit a recipes attributes
+	def setName(self, name):
+		self.name = name
+
+	def setIngr(self, ingr):
+		self.ingredients = ingr
+
+	def setInst(self, inst):
+		self.instructions = inst
+
+	def setCook(self, cook):
+		self.cookTime = cook
+
+	def setServes(self, serv):
+		self.serves = serv
+
+	def setComplements(self,comp):
+		self.complements = comp
+
+	"""
+
+	
+
+
